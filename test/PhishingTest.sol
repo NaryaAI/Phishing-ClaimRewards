@@ -4,6 +4,9 @@ pragma solidity ^0.8.13;
 import "forge-std/Test.sol";
 import "../src/ClaimRewards.sol";
 
+// analysis: https://www.levi104.com/2023/07/05/08.PoC/01.Phishing%20scam/
+// twitter: https://twitter.com/salus_sec/status/1679331500452634624
+
 contract PhishingTest is Test {
 
     ClaimRewards claimRewards;
